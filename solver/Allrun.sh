@@ -1,0 +1,3 @@
+cd reactingPimpleCentralFoam
+wclean
+wmake

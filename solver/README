@@ -1,0 +1,2 @@
+To compile the solver:
+After loading OpenFOAM v2012, execute the Allrun script in this directory
