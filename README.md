@@ -3,7 +3,7 @@
 ## High speed reactive flow solver in OpenFOAM® v2012 
 
 ### About the solver: ###
-An OpenFOAM® based hybrid-central solver called **reactingPimpleCentralFoam** is validated to compute hydrogen-based detonations. The original version of this solver developed by Kraposhin et al is available at here: https://github.com/unicfdlab/hybridCentralSolvers/tree/master/OpenFOAM-4.1/reactingPimpleCentralFoam. This solver is a pressure-based semi-implicit compressible flow solver based on central-upwind schemes of Kurganov and Tadmor, and possesses the features of standard OpenFOAM® solvers namely, rhoCentralFoam, reactingFoam and pimpleFoam. 
+An OpenFOAM® based hybrid-central solver called **reactingPimpleCentralFoam** is validated to compute hydrogen-based detonations. The original version of this solver developed by Kraposhin et al is available here: https://github.com/unicfdlab/hybridCentralSolvers/tree/master/OpenFOAM-4.1/reactingPimpleCentralFoam. This solver is a pressure-based semi-implicit compressible flow solver based on central-upwind schemes of Kurganov and Tadmor, and possesses the features of standard OpenFOAM® solvers namely, rhoCentralFoam, reactingFoam and pimpleFoam. 
 
 ### Verification & validation: ###
 We have validated an OpenFOAM® solver named reactingPimpleCentralFoam to perform hydrogen-oxygen-based (diluted with argon and nitrogen) detonation simulations, within the accuracy of the current state-of-the-art numerical simulations in open literature. The current study is devoted to: 
