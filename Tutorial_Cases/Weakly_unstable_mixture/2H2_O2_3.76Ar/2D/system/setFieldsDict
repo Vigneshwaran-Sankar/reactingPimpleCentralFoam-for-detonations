@@ -1,0 +1,137 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.2.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      setFieldsDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+/*defaultFieldValues 
+( 
+//	volVectorFieldValue U ( 0 0 0 ) 
+	volScalarFieldValue T 295.0
+	volScalarFieldValue p 15000.0 
+);*/
+
+regions
+( 
+/*    boxToCell*/
+/*    {*/
+/*        box (0 0 0) (0.002 0.01 0.01);*/
+
+/*        fieldValues*/
+/*        (*/
+/*            volScalarFieldValue T 705*/
+/*            volScalarFieldValue p 1500000*/
+/*//            volVectorFieldValue U ( 0 0 0 )*/
+/*        );*/
+/*    }*/
+
+/*    sphereToCell*/
+/*    {*/
+
+/*        centre      (0 0.005 0.005);*/
+/*        radius      0.0025;*/
+/*        fieldValues*/
+/*        (*/
+
+/*        volScalarFieldValue p  2500000*/
+/*        volScalarFieldValue T  2000*/
+
+/*        );*/
+/*    }*/
+
+
+
+    /*cylinderToCell
+    {
+        p1 (.03 0 0);
+        p2 (0.03 0 0.01);
+        radius 0.001;
+
+        fieldValues
+        (
+
+        volScalarFieldValue p  1500000.0
+        volScalarFieldValue T  4500.0
+
+        );
+    }
+
+    cylinderToCell
+    {
+        p1 (0.03 0.0025 0);
+        p2 (0.03 0.0025  0.01);
+        radius 0.001;
+
+        fieldValues
+        (
+
+        volScalarFieldValue p  1500000.0
+        volScalarFieldValue T  4500.0
+
+        );
+    }*/
+
+
+    cylinderToCell
+    {
+        p1 (0.004 0.005 0);
+        p2 (0.004 0.005  0.0067e-3);
+        radius 1e-3;
+
+        fieldValues
+        (
+
+        volScalarFieldValue p  453000.0
+        volScalarFieldValue T  3500.0
+
+        );
+    }
+
+
+    /*cylinderToCell
+    {
+        p1 (0.03 0.0075 0);
+        p2 (0.03 0.0075  0.01);
+        radius 0.001;
+
+        fieldValues
+        (
+
+        volScalarFieldValue p  1500000.0
+        volScalarFieldValue T  4500.0
+
+        );
+    }
+
+    cylinderToCell
+    {
+        p1 (0.03 0.010 0);
+        p2 (0.03 0.010  0.01);
+        radius 0.001;
+
+        fieldValues
+        (
+
+        volScalarFieldValue p  1500000.0
+        volScalarFieldValue T  4500.0
+
+        );
+    }*/
+
+
+
+);
+
+
+// ************************************************************************* //
