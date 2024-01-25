@@ -20,10 +20,15 @@ In addition, we have made targeted enhancements to this solver by implementing t
 The solver in this repository is tested and validated using ESI version [OpenFOAM® v2012](https://www.openfoam.com/news/main-news/openfoam-v20-12).
 
 ## Solver compilation: ###
-The solver folder in this repository contains all the instructions to compile the solver.
+The [solver folder](https://github.com/Vigneshwaran-Sankar/reactingPimpleCentralFoam-for-detonations/tree/master/solver) in this repository contains all the instructions to compile the solver.
 
 ## Simulation Execution Instructions: ###
 Detailed guidelines for conducting the simulations can be found in the readme document located within the ***CaseFiles.tar.gz***, applicable to both 1D and 2D scenarios. Considering the constraints related to the size of the files, we have provided only a single case setup for each of the 1D and 2D simulations in this repository. For access to further case setups used in the paper, users are encouraged to reach out to us directly.
 
 ## How to cite: ###
+Please reference the following when utilizing the solver in this configuration or case setup:
 1. Vigneshwaran Sankar, Karl P. Chatelain, Josué Melguizo-Gavilanes, Deanna A. Lacoste, 2024. Validation of High Speed Reactive Flow Solver in OpenFOAM with Detailed Chemistry. OpenFOAM® Journal.
+
+## Contact us:
+Feel free to reach out for questions or collaborations:
+[vigneshwaran.sankar@kaust.edu.sa](mailto:vigneshwaran.sankar@kaust.edu.sa), [karl.chatelain@kaust.edu.sa](mailto:karl.chatelain@kaust.edu.sa), [J.MelguizoGavilanes@shell.com](mailto:J.MelguizoGavilanes@shell.com), [deanna.lacoste@kaust.edu.sa](mailto:deanna.lacoste@kaust.edu.sa)
