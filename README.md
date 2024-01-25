@@ -1,8 +1,8 @@
 ## High-speed reactive flow solver in OpenFOAM® v2012 
 
-[![GitHub release](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/Vigneshwaran-Sankar/reactingPimpleCentralFoam-for-detonations/tree/master)
+[![GitHub Release](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/Vigneshwaran-Sankar/reactingPimpleCentralFoam-for-detonations/tree/master)
 [![OpenFOAM](https://img.shields.io/badge/OpenFOAM-v2012-blue)](https://www.openfoam.com/news/main-news/openfoam-v20-12)
-
+[![license](https://img.shields.io/badge/License-GPL%203.0-brown)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ## Solver description: ##
 An OpenFOAM®-based hybrid central solver called **reactingPimpleCentralFoam** is validated to compute hydrogen-based detonations. The original version of this solver was developed by [Kraposhin et al.](https://github.com/unicfdlab/hybridCentralSolvers/tree/master/OpenFOAM-4.1/reactingPimpleCentralFoam). This solver is a pressure-based semi-implicit compressible flow solver based on central-upwind schemes of Kurganov and Tadmor that possesses the features of standard OpenFOAM® solvers namely, rhoCentralFoam, reactingFoam, and pimpleFoam. 
 
