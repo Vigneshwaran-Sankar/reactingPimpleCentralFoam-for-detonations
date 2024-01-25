@@ -23,7 +23,7 @@ The solver in this repository is tested and validated using ESI version [OpenFOA
 The [solver folder](https://github.com/Vigneshwaran-Sankar/reactingPimpleCentralFoam-for-detonations/tree/master/solver) in this repository contains all the instructions to compile the solver.
 
 ## Simulation Execution Instructions: ###
-Detailed guidelines for conducting the simulations can be found in the readme document located within the ***CaseFiles.tar.gz***, applicable to both 1D and 2D scenarios. Considering the constraints related to the size of the files, we have provided only a single case setup for each of the 1D and 2D simulations in this repository. For access to further case setups used in the paper, users are encouraged to reach out to us directly.
+Detailed guidelines for conducting the simulations can be found in the readme document located within the ***Tutorial_Cases***, applicable to both 1D and 2D scenarios. Considering the constraints related to the size of the files, we have provided only a single case setup for each of the 1D and 2D simulations in this repository. For access to further case setups used in the paper, users are encouraged to reach out to us directly.
 
 ## How to cite: ###
 Please reference the following when utilizing the solver in this configuration or case setup:
