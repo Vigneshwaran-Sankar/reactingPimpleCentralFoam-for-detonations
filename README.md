@@ -30,5 +30,5 @@ Please reference the following when utilizing the solver in this configuration o
 1. Vigneshwaran Sankar, Karl P. Chatelain, Josué Melguizo-Gavilanes, Deanna A. Lacoste, 2024. Validation of High Speed Reactive Flow Solver in OpenFOAM with Detailed Chemistry. OpenFOAM® Journal.
 
 ## Contact us:
-Feel free to reach out for questions or collaborations:
+Feel free to reach out for questions or for further details:
 [vigneshwaran.sankar@kaust.edu.sa](mailto:vigneshwaran.sankar@kaust.edu.sa), [karl.chatelain@kaust.edu.sa](mailto:karl.chatelain@kaust.edu.sa), [J.MelguizoGavilanes@shell.com](mailto:J.MelguizoGavilanes@shell.com), [deanna.lacoste@kaust.edu.sa](mailto:deanna.lacoste@kaust.edu.sa)
