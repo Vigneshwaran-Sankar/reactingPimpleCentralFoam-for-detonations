@@ -27,7 +27,7 @@ Detailed guidelines for conducting the simulations can be found in the readme do
 
 ## How to cite: ###
 Please reference the following when utilizing the solver in this configuration or case setup:
-1. Vigneshwaran Sankar, Karl P. Chatelain, Josué Melguizo-Gavilanes, Deanna A. Lacoste, 2024. Validation of High Speed Reactive Flow Solver in OpenFOAM with Detailed Chemistry. OpenFOAM® Journal.
+1. Sankar, V., Chatelain, K., Melguizo-Gavilanes, J., & Lacoste, D. (2024). Validation of High Speed Reactive Flow Solver in OpenFOAM with Detailed Chemistry. OpenFOAM® Journal, 4, 1–25. [https://doi.org/10.51560/ofj.v4.125](https://doi.org/10.51560/ofj.v4.125)
 
 ## Contact us:
 Feel free to reach out for questions or for further details:
